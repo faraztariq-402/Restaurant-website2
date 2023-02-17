@@ -1,0 +1,161 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    margin-top: 20px;
+    height: 180px;
+    width: 100%;
+    background-color: black;
+}
+.secondcontent a{
+    position: relative;
+    top: 80px;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    
+    margin-right: 30px;
+}
+.secondcontent a:hover{
+    
+   
+    text-decoration: underline red;
+    
+}
+
+.thirdcontent button{
+    background-color: rgb(69, 187, 69);
+    color: white;
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+    height: 55px;
+    width: 130px;
+    border-radius: 10px;
+
+}
+
+
+.thirdcontent button{
+    margin-left: 20px;
+}
+.mainbody{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    height: 600px;
+    width:100%;
+    background-color: black;
+    
+}
+.firstchild{
+    margin-top: 111px;
+
+}
+.secondchild{
+    margin-top: 90px;
+}
+.pic img{
+    border-radius: 50px;
+}
+.buttons button{
+    height: 67px;
+    width: 190px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 18px;
+    margin-right: 20px;
+    background-color: red;
+    color: white;
+}
+.buttons a{
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: yellowgreen;
+}
+.buttons a:hover{
+    text-decoration: underline yellowgreen;
+}
+.buttons{
+    margin-top: 50px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+.box1{
+  text-align: center;
+    margin-top: 50px;
+    border-radius: 35px;
+ height: 250px;
+ width: 450px; 
+ background-color: rgb(58, 50, 50);  
+}
+.box1 span{
+    position: relative;
+    top: 40px;
+}
+.box1 a{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.box1 a:hover{
+    text-decoration: underline gray;
+}
+.box2 span{
+    position: relative;
+    top: 40px;
+}
+
+.box2{
+    margin-top: 50px;
+    border-radius: 35px;
+text-align: center;
+    height: 250px;
+    width: 450px; 
+    background-color:rgb(58, 50, 50);  
+}
+.box2 a{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.box2 a:hover{
+    text-decoration: underline gray;
+}
+.box3{
+    margin-top: 50px;
+    border-radius: 35px;
+text-align: center;
+    height: 250px;
+    width: 450px;   
+    background-color: rgb(58, 50, 50);  
+}
+.box3 span{
+    position: relative;
+    top: 40px;
+}
+.box3 a{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.box3 a:hover{
+    text-decoration: underline gray;
+}
